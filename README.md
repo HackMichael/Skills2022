@@ -1,5 +1,7 @@
- TASK 1 
+TASK 1 
+
 Task name: Manage GitHub scripts and documents
+
 Task description: Create a folder “Skills2022” in your DEVASC virtual machine and start a git 
 repository.
 
@@ -15,7 +17,9 @@ And then I have checked my repository on GitHub.
 This is arguably one of the most important tasks, as git skills are essential for the rest of the project. There were no difficulties at this stage.
 
 TASK 2
+
 Task name: Manage WebServers through Ansible.
+
 Task description: Write the Ansible script to install and test the websever with ping command 
 in a single playbook. Choose either Apache or Nginx server based on your own 
 preference. 
@@ -36,7 +40,9 @@ After that I have used command: "ansible-playbook -v WEBSERVER_INSTALATION_AND_T
 At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way
 
 TASK 3
+
 Task name: Manage Docker microservices
+
 Task description: Create a docker microservice
 
 Firstly we need a pull our ntp server.
@@ -48,7 +54,9 @@ After some configuration we will start our docker. On the screenshot below you c
 Also, one of the important parts of the project is the ability to work with docker. Fortunately, there is a wide range of ways to get this service. At this stage, there were no problems.
  
  TASK 4
+ 
  Task name: CI/CD Pipeline using Jenkins
+ 
  Task description: Create a Jenkins pipeline
  
 To create a Jenkins pipeline firstly we need to pull Jenkins by command:"docker pull jenkins/jenkins".
@@ -66,7 +74,9 @@ Now we can build our pipeline. After 1 min and 6 sec it was successfully built.
 Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline
 
 TASK 5
+
 Task name: Unit testing
+
 Task description: Create a unittest script in Python that asserts the output of all the 
 functions in the given Python module.
 
