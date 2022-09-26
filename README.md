@@ -5,7 +5,7 @@ Task name: Manage GitHub scripts and documents.
 Task description: Create a folder “Skills2022” in your DEVASC virtual machine and start a git 
 repository.
 
-Firstly I have created git repository and fie "README.MD". after taht I make a new commit.
+Firstly I have created git repository and fie "README.MD". After taht I make a new commit.
 ![1](https://user-images.githubusercontent.com/102226081/191988120-119a3093-0710-4f04-a51d-b276da7da6d6.png)
 
 Second step I added a Git URL as a remote alias. Then I used the git push origin master command to send the file to my GitHub repository.
