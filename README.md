@@ -1,6 +1,6 @@
 TASK 1 
 
-Task name: Manage GitHub scripts and documents
+Task name: Manage GitHub scripts and documents.
 
 Task description: Create a folder “Skills2022” in your DEVASC virtual machine and start a git 
 repository.
@@ -38,14 +38,14 @@ After that I have used command: "ansible-playbook -v WEBSERVER_INSTALATION_AND_T
 ![4](https://user-images.githubusercontent.com/102226081/192366771-b6b2d252-4ff3-4af7-b696-6d489b9ea603.png)
 ![5](https://user-images.githubusercontent.com/102226081/192366953-d3cf5cd1-33d9-4d82-a194-a623dce19c61.png)
 
-At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way
+At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way.
 
 
 TASK 3
 
-Task name: Manage Docker microservices
+Task name: Manage Docker microservices.
 
-Task description: Create a docker microservice
+Task description: Create a docker microservice.
 
 Firstly we need a pull our ntp server.
 ![1](https://user-images.githubusercontent.com/102226081/192367176-95e2a7f2-2577-4dee-97dd-028b15efcb57.png)
@@ -58,9 +58,9 @@ Also, one of the important parts of the project is the ability to work with dock
  
 TASK 4
  
-Task name: CI/CD Pipeline using Jenkins
+Task name: CI/CD Pipeline using Jenkins.
  
-Task description: Create a Jenkins pipeline
+Task description: Create a Jenkins pipeline.
  
 To create a Jenkins pipeline firstly we need to pull Jenkins by command:"docker pull jenkins/jenkins".
 ![1](https://user-images.githubusercontent.com/102226081/192367723-dc9e151f-c00e-4115-b7e9-a0ba6bbb869e.png)
@@ -74,12 +74,12 @@ Then in cofiguration part I wrote a startup.sh file, which you can find in Task4
 Now we can build our pipeline. After 1 min and 6 sec it was successfully built.
 ![4](https://user-images.githubusercontent.com/102226081/192368477-a2807b23-33fe-40e1-a170-5c93457156c8.png)
 
-Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline
+Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline.
 
 
 TASK 5
 
-Task name: Unit testing
+Task name: Unit testing.
 
 Task description: Create a unittest script in Python that asserts the output of all the 
 functions in the given Python module.
@@ -93,7 +93,7 @@ After coding we can launch our program.
 Here you can see results of the test.
 ![3](https://user-images.githubusercontent.com/102226081/192369029-351bb3d2-25d4-4e0b-9a83-5e4b77c5d6f6.png)
 
-In this task, it was necessary to perform a unit test, at first the question arose of how to conduct these tests, but fortunately, knowledge of python and analysis of laboratory work helped me in the implementation of this task
+In this task, it was necessary to perform a unit test, at first the question arose of how to conduct these tests, but fortunately, knowledge of python and analysis of laboratory work helped me in the implementation of this task.
 
 
 
