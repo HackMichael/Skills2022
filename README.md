@@ -16,6 +16,7 @@ And then I have checked my repository on GitHub.
 
 This is arguably one of the most important tasks, as git skills are essential for the rest of the project. There were no difficulties at this stage.
 
+
 TASK 2
 
 Task name: Manage WebServers through Ansible.
@@ -39,6 +40,7 @@ After that I have used command: "ansible-playbook -v WEBSERVER_INSTALATION_AND_T
 
 At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way
 
+
 TASK 3
 
 Task name: Manage Docker microservices
@@ -53,11 +55,12 @@ After some configuration we will start our docker. On the screenshot below you c
 
 Also, one of the important parts of the project is the ability to work with docker. Fortunately, there is a wide range of ways to get this service. At this stage, there were no problems.
  
- TASK 4
  
- Task name: CI/CD Pipeline using Jenkins
+TASK 4
  
- Task description: Create a Jenkins pipeline
+Task name: CI/CD Pipeline using Jenkins
+ 
+Task description: Create a Jenkins pipeline
  
 To create a Jenkins pipeline firstly we need to pull Jenkins by command:"docker pull jenkins/jenkins".
 ![1](https://user-images.githubusercontent.com/102226081/192367723-dc9e151f-c00e-4115-b7e9-a0ba6bbb869e.png)
@@ -72,6 +75,7 @@ Now we can build our pipeline. After 1 min and 6 sec it was successfully built.
 ![4](https://user-images.githubusercontent.com/102226081/192368477-a2807b23-33fe-40e1-a170-5c93457156c8.png)
 
 Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline
+
 
 TASK 5
 
