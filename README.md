@@ -1,4 +1,4 @@
-<head> TASK 1 </head>
+ TASK 1 
 
 Firstly I have created git repository and fie "README.MD". after taht I make a new commit.
 ![1](https://user-images.githubusercontent.com/102226081/191988120-119a3093-0710-4f04-a51d-b276da7da6d6.png)
@@ -8,6 +8,8 @@ Second step I added a Git URL as a remote alias. Then I used the git push origin
 
 And then I have checked my repository on GitHub.
 ![3](https://user-images.githubusercontent.com/102226081/191989229-603dd901-3b55-4bb9-9763-93ec7dd6a2a1.png)
+
+This is arguably one of the most important tasks, as git skills are essential for the rest of the project. There were no difficulties at this stage.
 
 TASK 2
 
@@ -24,6 +26,8 @@ After that I have used command: "ansible-playbook -v WEBSERVER_INSTALATION_AND_T
 ![4](https://user-images.githubusercontent.com/102226081/192366771-b6b2d252-4ff3-4af7-b696-6d489b9ea603.png)
 ![5](https://user-images.githubusercontent.com/102226081/192366953-d3cf5cd1-33d9-4d82-a194-a623dce19c61.png)
 
+At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way
+
 TASK 3
 Firstly we need a pull our ntp server.
 ![1](https://user-images.githubusercontent.com/102226081/192367176-95e2a7f2-2577-4dee-97dd-028b15efcb57.png)
@@ -31,6 +35,7 @@ Firstly we need a pull our ntp server.
 After some configuration we will start our docker. On the screenshot below you can see details on our ntp servers status.
 ![3](https://user-images.githubusercontent.com/102226081/192367347-54a7e0a6-d6ee-481f-9796-2d656c1f2c55.png)
 
+Also, one of the important parts of the project is the ability to work with docker. Fortunately, there is a wide range of ways to get this service. At this stage, there were no problems.
  
  TASK 4
  
@@ -46,6 +51,7 @@ Then in cofiguration part I wrote a startup.sh file, which you can find in Task4
 Now we can build our pipeline. After 1 min and 6 sec it was successfully built.
 ![4](https://user-images.githubusercontent.com/102226081/192368477-a2807b23-33fe-40e1-a170-5c93457156c8.png)
 
+Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline
 
 TASK 5
 
@@ -57,6 +63,8 @@ All files you can find in Task5 dictionary.
 After coding we can launch our program.
 Here you can see results of the test.
 ![3](https://user-images.githubusercontent.com/102226081/192369029-351bb3d2-25d4-4e0b-9a83-5e4b77c5d6f6.png)
+
+In this task, it was necessary to perform a unit test, at first the question arose of how to conduct these tests, but fortunately, knowledge of python and analysis of laboratory work helped me in the implementation of this task
 
 
 
