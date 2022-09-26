@@ -47,7 +47,7 @@ Task name: Manage Docker microservices.
 
 Task description: Create a docker microservice.
 
-Firstly we need a pull our ntp server.
+Firstly we need a pull our ntp service.
 ![1](https://user-images.githubusercontent.com/102226081/192367176-95e2a7f2-2577-4dee-97dd-028b15efcb57.png)
 
 After some configuration we will start our docker. On the screenshot below you can see details on our ntp servers status.
