@@ -1,7 +1,7 @@
 properties([disableConcurrentBuilds()])
 pipeline {
     agent {
-        label 'Skills2022'
+        label 'Built-In Node'
         }
     options {
         buildDiscarder(logRotator(numToKeepStr:'10', artifactNumToKeepStr:'10'))
