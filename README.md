@@ -1,4 +1,7 @@
  TASK 1 
+Task name: Manage GitHub scripts and documents
+Task description: Create a folder “Skills2022” in your DEVASC virtual machine and start a git 
+repository.
 
 Firstly I have created git repository and fie "README.MD". after taht I make a new commit.
 ![1](https://user-images.githubusercontent.com/102226081/191988120-119a3093-0710-4f04-a51d-b276da7da6d6.png)
@@ -12,6 +15,10 @@ And then I have checked my repository on GitHub.
 This is arguably one of the most important tasks, as git skills are essential for the rest of the project. There were no difficulties at this stage.
 
 TASK 2
+Task name: Manage WebServers through Ansible.
+Task description: Write the Ansible script to install and test the websever with ping command 
+in a single playbook. Choose either Apache or Nginx server based on your own 
+preference. 
 
 Firstly we need to do some preparation. On the screenshot below you can see that I make hosts file where I establish my web servers parameters.
 ![2](https://user-images.githubusercontent.com/102226081/192366308-4b66879e-c8d7-4d9b-9a2d-f8a27c736655.png)
@@ -29,6 +36,9 @@ After that I have used command: "ansible-playbook -v WEBSERVER_INSTALATION_AND_T
 At the second stage, it was interesting that here we needed to do both installation and testing in one playbook. In contrast to the laboratory work in which it was necessary to do this in two playbooks. At first I did not quite understand how to implement this, but in the end I was able to think of the right way
 
 TASK 3
+Task name: Manage Docker microservices
+Task description: Create a docker microservice
+
 Firstly we need a pull our ntp server.
 ![1](https://user-images.githubusercontent.com/102226081/192367176-95e2a7f2-2577-4dee-97dd-028b15efcb57.png)
 
@@ -38,6 +48,8 @@ After some configuration we will start our docker. On the screenshot below you c
 Also, one of the important parts of the project is the ability to work with docker. Fortunately, there is a wide range of ways to get this service. At this stage, there were no problems.
  
  TASK 4
+ Task name: CI/CD Pipeline using Jenkins
+ Task description: Create a Jenkins pipeline
  
 To create a Jenkins pipeline firstly we need to pull Jenkins by command:"docker pull jenkins/jenkins".
 ![1](https://user-images.githubusercontent.com/102226081/192367723-dc9e151f-c00e-4115-b7e9-a0ba6bbb869e.png)
@@ -54,6 +66,9 @@ Now we can build our pipeline. After 1 min and 6 sec it was successfully built.
 Working with Jenkins was new to me, but thanks to the simple installation and good interface, I easily managed to create a pipeline
 
 TASK 5
+Task name: Unit testing
+Task description: Create a unittest script in Python that asserts the output of all the 
+functions in the given Python module.
 
 Here we need to wrote test.py to test our main.py.
 All files you can find in Task5 dictionary.
